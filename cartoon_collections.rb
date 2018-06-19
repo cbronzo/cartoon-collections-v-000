@@ -7,6 +7,10 @@ end
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
 def summon_captain_planet
+    planeteer_calls.each do |e|
+      e.upcase
+      
+    end
 end
 
 def long_planeteer_calls

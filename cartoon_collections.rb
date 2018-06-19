@@ -6,7 +6,7 @@ def roll_call_dwarves(dwarf_array)
 end
 
 planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-def summon_captain_planet
+def summon_captain_planet(planeteer_calls)
     new_array = []
       planeteer_calls.each do |e|
        new_array << e.upcase

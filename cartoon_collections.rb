@@ -14,7 +14,8 @@ def summon_captain_planet(planeteer_calls)
     new_array
 end
 
-c
+short_words = ["puff", "go", "two"]
+assorted_words = ["two", "go", "industrious", "bop"]
 def long_planeteer_calls(calls)
   if calls.length > 4
     return true

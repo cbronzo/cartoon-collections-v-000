@@ -11,6 +11,7 @@ def summon_captain_planet(planeteer_calls)
       planeteer_calls.each do |e|
        new_array << e.upcase
     end
+    new_array
 end
 
 def long_planeteer_calls

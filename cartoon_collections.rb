@@ -4,3 +4,4 @@ def roll_call_dwarves(dwarf_array)
   puts "#{index.to_i+1} #{name}"
   end
 end
+
